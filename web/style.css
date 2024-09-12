@@ -5,9 +5,28 @@
 
 header{
     background-color: #231c1a;
+    position: relative;
+    left:50px;
+    top:100px;
+}
+header ul{
+    position: absolute;
+    right:5vw;
+    top:0;
+    line-height: 80px;
 }
 h1{
     color:white;
+    position:absolute;
+    left:120px;
+    top:0;
+    line-height: 80px;
+    background-image: url(images/logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 210px;
+    text-indent: -9999px;
+
 }
 header a{
     color: antiquewhite;
@@ -15,4 +34,17 @@ header a{
 }
 header a :hover{
     text-decoration: underline;
+}
+header li{
+    display:inline;
+    margin-right:4vw;
+}
+.news{
+    background-color: blueviolet;
+    color: azure;
+    height:95vw;
+    background-image: url(images/WhatsApp\ Image\ 2024-09-11\ at\ 16.21.25_d484b937.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
