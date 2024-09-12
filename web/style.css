@@ -47,4 +47,24 @@ header li{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.news h2{
+    font-size: 60px;
+}
+.news p{
+    color:#fef7e6;
+    font-size: 18px;
+    margin:25px 0;
+}
+.news a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #acacac;
+    padding:10px 20px;
+    border-radius: 5px;
+
 }
